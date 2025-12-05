@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.revisrl.it/sitemap.xml
+Sitemap: https://revisrlragusa.it/sitemap.xml
