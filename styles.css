@@ -149,6 +149,23 @@ body {
     box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
 }
 
+/* Badge Section */
+.badge-section {
+    background-color: var(--bg-light);
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.badge-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.badge-container #shapo-widget-367b956c8c5ac15eebc1 {
+    width: 100%;
+    min-height: 200px;
+}
+
 /* Section Styles */
 section {
     padding: 4rem 0;
@@ -230,6 +247,23 @@ section {
 .feature p {
     color: var(--text-light);
     line-height: 1.7;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: var(--white);
+    padding: 4rem 0;
+}
+
+.reviews-widget {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.reviews-widget #shapo-widget-d53b3698c5aaf1efb735 {
+    width: 100%;
+    min-height: 400px;
 }
 
 /* Contact Section */
@@ -359,6 +393,15 @@ section {
         font-size: 1rem;
     }
     
+    .badge-section {
+        padding: 2rem 0;
+    }
+    
+    .badge-container {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    
     .section-title {
         font-size: 2rem;
     }
@@ -380,6 +423,18 @@ section {
     .services-grid,
     .features-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .badge-container #shapo-widget-367b956c8c5ac15eebc1 {
+        max-width: 100%;
+    }
+    
+    .reviews {
+        padding: 3rem 0;
+    }
+    
+    .reviews-widget {
+        padding: 1rem 0;
     }
     
     .footer-content {
